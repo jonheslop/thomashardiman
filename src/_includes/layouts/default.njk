@@ -87,7 +87,8 @@
     <script>
       document.addEventListener("DOMContentLoaded", function(){
         if (window.location.search.indexOf('secret') === -1) {
-          document.querySelectorAll('#joywave .image-link')[0].classList.add('dn') 
+          document.querySelectorAll('#joywave .image-link')[0].href = 'https://wdrv.it/276886bd8'
+          document.querySelectorAll('#joywave .link')[0].href = document.querySelectorAll('#joywave .link')[0].href + '?secret'
         }
       });
     </script>
